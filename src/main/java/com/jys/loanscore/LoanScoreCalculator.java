@@ -1,15 +1,15 @@
-package main.java.com.jys.loanscore;
+package com.jys.loanscore;
 
 import java.util.HashSet;
 import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import main.java.com.jys.loanscore.builder.GradedLoanBuilder;
-import main.java.com.jys.loanscore.model.GradedLoan;
-import main.java.com.jys.loanscore.model.Loan;
-import main.java.com.jys.loanscore.utility.GradedLoanDataWriter;
-import main.java.com.jys.loanscore.utility.LoanDataReader;
+import com.jys.loanscore.builder.GradedLoanBuilder;
+import com.jys.loanscore.model.GradedLoan;
+import com.jys.loanscore.model.Loan;
+import com.jys.loanscore.utility.GradedLoanDataWriter;
+import com.jys.loanscore.utility.LoanDataReader;
 
 public class LoanScoreCalculator {
 
@@ -17,10 +17,6 @@ public class LoanScoreCalculator {
 	static Logger logger = Logger.getLogger("com.jys.loanscore.Main");
 
 	public static void main(String[] args) throws Exception {
-
-		// TODO: remove these lines before package
-		args = new String[] { "/Users/js044486/Downloads/test_materials/loan_data.csv", // input location
-				"/Users/js044486/Downloads/test_materials/testOutput.csv" }; // output location
 
 		logger.log(Level.WARNING, "all data is stored in memory at once with current impl");
 

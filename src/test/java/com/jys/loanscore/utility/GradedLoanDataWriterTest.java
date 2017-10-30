@@ -1,4 +1,4 @@
-package test.java.com.jys.loanscore.utility;
+package com.jys.loanscore.utility;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -17,8 +17,7 @@ import java.util.Set;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import main.java.com.jys.loanscore.model.GradedLoan;
-import main.java.com.jys.loanscore.utility.GradedLoanDataWriter;
+import com.jys.loanscore.model.GradedLoan;
 
 class GradedLoanDataWriterTest {
 
@@ -55,7 +54,6 @@ class GradedLoanDataWriterTest {
 		try (BufferedReader br = Files.newBufferedReader(Paths.get(testOutputDestination))) {
 			String outputLine;
 			while ((outputLine = br.readLine()) != null) {
-				System.out.println(outputLine);
 				outputLines.add(outputLine);
 			}
 		} catch (IOException e) {

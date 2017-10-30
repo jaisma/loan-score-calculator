@@ -1,4 +1,4 @@
-package main.java.com.jys.loanscore.builder;
+package com.jys.loanscore.builder;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import main.java.com.jys.loanscore.model.Loan;
+import com.jys.loanscore.model.Loan;
 
 public class LoanBuilder {
 	private Logger logger = Logger.getLogger("com.jys.loanscore.builder.LoanBuilder");
@@ -14,7 +14,7 @@ public class LoanBuilder {
 	public Loan buildLoan(String[] loanData) {
 
 		if (loanData.length != 43) {
-			logger.log(Level.INFO, Arrays.toString(loanData));
+			logger.log(Level.FINE, Arrays.toString(loanData));
 			logger.log(Level.FINE, "Incomplete loan data, returning empty loan");
 			return new Loan();
 		}

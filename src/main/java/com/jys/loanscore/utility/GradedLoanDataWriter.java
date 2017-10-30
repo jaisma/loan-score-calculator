@@ -1,4 +1,4 @@
-package main.java.com.jys.loanscore.utility;
+package com.jys.loanscore.utility;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.util.StringJoiner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import main.java.com.jys.loanscore.model.GradedLoan;
+import com.jys.loanscore.model.GradedLoan;
 
 public class GradedLoanDataWriter {
 	private Logger logger = Logger.getLogger("com.jys.loanscore.utility.GradedLoanDataWriter");

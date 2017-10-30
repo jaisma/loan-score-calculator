@@ -1,4 +1,4 @@
-package test.java.com.jys.loanscore.builder;
+package com.jys.loanscore.builder;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -9,8 +9,7 @@ import java.time.LocalDate;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import main.java.com.jys.loanscore.builder.LoanBuilder;
-import main.java.com.jys.loanscore.model.Loan;
+import com.jys.loanscore.model.Loan;
 
 class LoanBuilderTest {
 	

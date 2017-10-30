@@ -1,4 +1,4 @@
-package main.java.com.jys.loanscore.model;
+package com.jys.loanscore.model;
 
 import java.util.Collections;
 import java.util.Comparator;

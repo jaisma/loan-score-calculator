@@ -1,4 +1,4 @@
-package test.java.com.jys.loanscore.utility;
+package com.jys.loanscore.utility;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -8,9 +8,8 @@ import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import main.java.com.jys.loanscore.builder.LoanBuilder;
-import main.java.com.jys.loanscore.model.Loan;
-import main.java.com.jys.loanscore.utility.RuleApplier;
+import com.jys.loanscore.builder.LoanBuilder;
+import com.jys.loanscore.model.Loan;
 
 class RuleApplierTest {
 

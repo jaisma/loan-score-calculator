@@ -1,12 +1,12 @@
-package main.java.com.jys.loanscore.utility;
+package com.jys.loanscore.utility;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import main.java.com.jys.loanscore.model.Loan;
-import main.java.com.jys.loanscore.model.Rules;
+import com.jys.loanscore.model.Loan;
+import com.jys.loanscore.model.Rules;
 
 public class RuleApplier {
 	private Logger logger = Logger.getLogger("com.jys.loanscore.utility.RuleApplier");

@@ -1,4 +1,4 @@
-package test.java.com.jys.loanscore.model;
+package com.jys.loanscore.model;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -7,9 +7,6 @@ import java.time.format.DateTimeFormatter;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import main.java.com.jys.loanscore.model.Loan;
-import main.java.com.jys.loanscore.model.Rules;
 
 class RulesTest {
 

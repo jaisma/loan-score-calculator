@@ -1,4 +1,4 @@
-package main.java.com.jys.loanscore.utility;
+package com.jys.loanscore.utility;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,8 +10,8 @@ import java.util.Set;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import main.java.com.jys.loanscore.builder.LoanBuilder;
-import main.java.com.jys.loanscore.model.Loan;
+import com.jys.loanscore.builder.LoanBuilder;
+import com.jys.loanscore.model.Loan;
 
 public class LoanDataReader {
 	private Logger logger = Logger.getLogger("com.jys.loanscore.utility.LoanDataReader");

@@ -1,4 +1,4 @@
-package test.java.com.jys.loanscore.utility;
+package com.jys.loanscore.utility;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -9,8 +9,7 @@ import java.util.Set;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import main.java.com.jys.loanscore.model.Loan;
-import main.java.com.jys.loanscore.utility.LoanDataReader;
+import com.jys.loanscore.model.Loan;
 
 class LoanDataReaderTest {
 

@@ -1,13 +1,13 @@
-package main.java.com.jys.loanscore.builder;
+package com.jys.loanscore.builder;
 
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import main.java.com.jys.loanscore.model.GradedLoan;
-import main.java.com.jys.loanscore.model.Loan;
-import main.java.com.jys.loanscore.utility.RuleApplier;
-import main.java.com.jys.loanscore.utility.ScoreCalculator;
+import com.jys.loanscore.model.GradedLoan;
+import com.jys.loanscore.model.Loan;
+import com.jys.loanscore.utility.RuleApplier;
+import com.jys.loanscore.utility.ScoreCalculator;
 
 public class GradedLoanBuilder {
 	private Logger logger = Logger.getLogger("com.jys.loanscore.builder.GradedLoanBuilder");
